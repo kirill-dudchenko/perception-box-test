@@ -1,0 +1,55 @@
+.App {
+  background-color: rgb(36,40,48);
+}
+
+.html, body {
+  margin: 0 auto;
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(36,40,48);
+}
+
+.list{
+  height:200px;
+  overflow: auto;
+}
+
+.characters-list {
+  height: 550px;
+  overflow: auto;
+  background-color: rgb(36, 40, 48);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(60, 62, 69);
+  width:500px;
+  height:200px;
+  margin:10px;
+  padding:10px;
+  border:1px solid black;
+  border-radius: 10px;
+  cursor:pointer
+}
+.card:hover{
+  transform: scale(1.1);
+}
+
+.text {
+  color: white;
+  cursor:pointer
+}
+
+#scrollArea{
+  display:flex;
+  flex-wrap: wrap;
+}
